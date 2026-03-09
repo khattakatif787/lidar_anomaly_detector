@@ -1,0 +1,15 @@
+venv/
+runs/
+logs/
+configs/
+__pycache__/
+*.pyc
+*.npy
+*.log
+*.tar.gz
+*.BACKUP*__pycache__/
+*.pyc
+.idea/
+venv/
+runs/
+src/lidar_anom/features_basic.py.bak_*
