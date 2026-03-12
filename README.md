@@ -33,6 +33,8 @@ LIHRA_DATASET/
 ```
 ###**Corrupted Dataset Generation**
 LiHRA dataset contains only clean LiDAR pint clouds frames, corrupted versions of the point clouds frames were generated.  Each corruption type was applied using multiple parameter values to simulate different fault severity levels and operating conditions using GitHub repository (https://github.com/GKnerd/lidar_fault_injection). The following corruption were injected:
+
+
 **1.	Sparse points (CPC3)**
 The following corruptions are injected:
 •	Random Dropout: where a percentage of points are randomly removed. The dropout rates ranging from 0.1 to 0.9 are used.
